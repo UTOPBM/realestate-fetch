@@ -30,3 +30,4 @@ options:
   machineType: 'E2_MEDIUM'
 # logging: CLOUD_LOGGING_ONLY  # 이 라인 제거
 logsBucket: 'gs://your-logs-bucket'
+
