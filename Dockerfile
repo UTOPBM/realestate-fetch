@@ -7,4 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "fetch_data.py"]  # app.py로 파일명을 변경했으므로 수정
+EXPOSE 8080  
+ENV PORT 8080 
+
+CMD ["python", "fetch_data.py"]
