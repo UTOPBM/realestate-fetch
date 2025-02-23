@@ -26,7 +26,7 @@ steps:
 images:
 - 'gcr.io/$PROJECT_ID/your-image-name:$COMMIT_SHA'
 options:
-  logging: CLOUD_LOGGING_ONLY # 또는 NONE
   substitution_option: 'ALLOW_LOOSE'
   machineType: 'E2_MEDIUM'
-logsBucket: 'gs://your-logs-bucket'  # 빌드 로그를 저장할 버킷 지정
+# logging: CLOUD_LOGGING_ONLY  # 이 라인 제거
+logsBucket: 'gs://your-logs-bucket'
