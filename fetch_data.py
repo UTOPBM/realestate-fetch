@@ -163,3 +163,5 @@ def run_data_collection():
 if __name__ == "__main__":
     # app.run(debug=True, host='0.0.0.0', port=int(os.environ.get("PORT", 8080)))  # Cloud Run에 맞게 포트 설정
     app.run(debug=True, host='0.0.0.0', port=8080) # 로컬 테스트용
+
+    
